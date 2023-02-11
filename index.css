@@ -25,7 +25,7 @@ body{
   background-color: #22252F;
 }
 .left_container2{
-  height: 45vh;
+  height: auto;
   border: 1px solid transparent;
   border-radius: 10px;
   background-color: #22252F;
