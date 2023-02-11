@@ -48,7 +48,7 @@ body{
   font-size:14px;
 }
 .right_container2{
-  height: 65vh;
+  height: Auto ;
   border: 1px solid transparent;
   border-radius: 10px;
   background-color: #22252F;
