@@ -25,6 +25,10 @@ body{
   background-color: #22252F;
   
 }
+#flexCheckChecked2{
+  height: 12px;
+  width: 12px;
+}
 #logo{
 height: 20px;
 }
