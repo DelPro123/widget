@@ -144,18 +144,22 @@
     </div>
     <!--MODALS-->
     <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+      <div class="modal-dialog modal-dialog-centered  modal-xl">
         <div class="modal-content bg-dark">
           <div class="modal-header">
             <h1 class="modal-title fs-5 text-warning" id="staticBackdropLabel">CREDIT SCORE</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body bg-light">
-            <array-credit-score 
-              appkey="3F03D20E-5311-43D8-8A76-E4B5D77793BD" 
-              usertoken="AD45C4BF-5C0A-40B3-8A53-ED29D091FA11" 
-              sandbox="true" bureau="all" scoretracker="true">
-          </array-credit-score>
+          <div class="card border-0 overflow-auto">
+            <div class="card-body bg-light">
+              <array-credit-score 
+                appkey="3F03D20E-5311-43D8-8A76-E4B5D77793BD" 
+                usertoken="AD45C4BF-5C0A-40B3-8A53-ED29D091FA11" 
+                sandbox="true" bureau="all" scoretracker="true">
+              </array-credit-score>
+            </div>
+          </div>
           </div>
         </div>
       </div>
