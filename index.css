@@ -19,10 +19,23 @@ body{
   background-color: #22252F;
 }
 .left_container1{
-  height: 45vh;
+  height: 58vh;
   border: 1px solid transparent;
   border-radius: 10px;
   background-color: #22252F;
+  
+}
+#top-name{
+  font-size: 26px;
+  font-weight: 500;
+  color: white;
+}
+#company-name{
+  color: #555;
+  font-size: 20px;
+}
+.text-uppercase{
+  color: #0cc3f9;
 }
 .left_container2{
   height: auto;
@@ -52,5 +65,12 @@ body{
   border: 1px solid transparent;
   border-radius: 10px;
   background-color: #22252F;
+  
+}
+.inner_circle {
+  height: 200px;
+  width: 200px;
+  background-color: #555;
+  border-radius: 50%;
 }
 
