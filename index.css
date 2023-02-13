@@ -9,6 +9,17 @@
 body{
   background-color: #1B1E28;
 }
+h1,h2,h3,h4,h5,i, .modal-title{
+  color:#ffa500;
+}
+.form-check-input{
+  background-color: #ffa500;
+  cursor: pointer;
+}
+.btn, .form-check-input:checked{
+  background-color: #ffa500;
+  transition: all 0.5s;
+}
 .left_container{
   height: 100%;
 }
@@ -35,9 +46,9 @@ body{
   font-size: 20px;
 }
 .text-uppercase{
-  color: #ffc107;
+  color: #ffa500;
 }
-.left_container2{
+.col-sm-12{
   height: auto;
   border: 1px solid transparent;
   border-radius: 10px;
@@ -73,4 +84,85 @@ body{
   background-color: #555;
   border-radius: 50%;
 }
+.btn {
+  color:#1B1E28;
+}
+/*HOVER EFFECTS*/
+.btn:hover{
+  border: 1px solid #ffa500;
+  color: #ffa500;
+}
+.form-check-input:ho{
+  border: 1px solid #1B1E28;
+}
+/*MEDIA QUERY*/
+@media (max-width:1024px) {
+  .left_container{
+    width: 100%;
+    }
+  .left_container1{
+    height: auto;
+    padding: 30px;
+  }
+  .col-sm-12 {
+    padding: 1.2rem !important;
+  }
+  .right_container{
+    width: auto;
+    height: 515vh;
+  }
+  h5{
+    font-size: 1.05rem;
+  }
+  .form-check-label{
+    font-size: 12px;
+  }
+  .col-sm-4{
+    width: auto;
+  }
+  .right_container1{
+    height: auto;
+    padding: 4% !important;
+  }
 
+}
+@media(max-width:820px){
+  
+  .right_container{
+    width: auto;
+    height: 555vh;
+  }
+  .form-check-label{
+    font-size: 12px;
+  }
+  .right_container1{
+    height: auto;
+    padding: 4% !important;
+  }
+}
+@media(max-width:768px){
+  
+  .right_container{
+    width: auto;
+    height: 610vh;
+    
+  }
+  
+}
+@media(max-width:480px){
+  .container{
+    visibility: hidden;
+    height: 0;
+  }
+  .right_container{
+    text-align: center;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    
+  }
+  .fw-light{
+    margin-top: 10px;
+  }
+  
+}
