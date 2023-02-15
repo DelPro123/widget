@@ -10,14 +10,14 @@ body{
   background-color: #1B1E28;
 }
 h1,h2,h3,h4,h5,i, .modal-title{
-  color:#ffa500;
+  color:#ffa50D;
 }
 .form-check-input{
-  background-color: #ffa500;
+  background-color: #ffa50D;
   cursor: pointer;
 }
 .btn, .form-check-input:checked{
-  background-color: #ffa500;
+  background-color: #ffa50D;
   transition: all 0.5s;
 }
 .left_container{
@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,i, .modal-title{
   font-size: 20px;
 }
 .text-uppercase{
-  color: #ffa500;
+  color: #ffa50D;
 }
 .col-sm-12{
   height: auto;
@@ -89,8 +89,8 @@ h1,h2,h3,h4,h5,i, .modal-title{
 }
 /*HOVER EFFECTS*/
 .btn:hover{
-  border: 1px solid #ffa500;
-  color: #ffa500;
+  border: 1px solid #ffa50D;
+  color: #ffa50D;
 }
 .form-check-input:ho{
   border: 1px solid #1B1E28;
